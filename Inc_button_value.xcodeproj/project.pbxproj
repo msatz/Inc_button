@@ -14,6 +14,7 @@
 		C1AEE77A1F62CA4900B08B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AEE7781F62CA4900B08B75 /* LaunchScreen.storyboard */; };
 		C1AEE7851F62CA4900B08B75 /* Inc_button_valueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AEE7841F62CA4900B08B75 /* Inc_button_valueTests.swift */; };
 		C1AEE7901F62CA4900B08B75 /* Inc_button_valueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AEE78F1F62CA4900B08B75 /* Inc_button_valueUITests.swift */; };
+		C1F986DD1F73702D001C3747 /* Img_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F986DC1F73702D001C3747 /* Img_button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C1AEE78B1F62CA4900B08B75 /* Inc_button_valueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inc_button_valueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AEE78F1F62CA4900B08B75 /* Inc_button_valueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inc_button_valueUITests.swift; sourceTree = "<group>"; };
 		C1AEE7911F62CA4900B08B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F986DC1F73702D001C3747 /* Img_button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Img_button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C1AEE7761F62CA4900B08B75 /* Assets.xcassets */,
 				C1AEE7781F62CA4900B08B75 /* LaunchScreen.storyboard */,
 				C1AEE77B1F62CA4900B08B75 /* Info.plist */,
+				C1F986DC1F73702D001C3747 /* Img_button.swift */,
 			);
 			path = Inc_button_value;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				C1AEE7721F62CA4900B08B75 /* ViewController.swift in Sources */,
 				C1AEE7701F62CA4900B08B75 /* AppDelegate.swift in Sources */,
+				C1F986DD1F73702D001C3747 /* Img_button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				C1AEE7961F62CA4900B08B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1AEE7971F62CA4900B08B75 /* Build configuration list for PBXNativeTarget "Inc_button_valueTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				C1AEE7991F62CA4900B08B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1AEE79A1F62CA4900B08B75 /* Build configuration list for PBXNativeTarget "Inc_button_valueUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				C1AEE79C1F62CA4900B08B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
